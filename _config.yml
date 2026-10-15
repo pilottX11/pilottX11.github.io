@@ -1,48 +1,30 @@
-# The Site Configuration
+timezone: America/New_York   # optional, but good to set
 
-# Import the theme
-theme: jekyll-theme-chirpy
+title: pilott # the main title
 
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
-lang: en
-
-# Change to your timezone › https://zones.arilyn.cc
-timezone: EST
-
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# ↓ --------------------------
-
-title: pilott! # the main title
-
-tagline: a simple developer # it will display as the subtitle
+tagline: i am a simple developer # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-a c++ developer who specializes in anti-cheat research and low level development
+  pilott, a simple developer. Currently working on ruin.cx
+
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://pilottx11.github.io"
 
 github:
-  username: pilotX11 # change to your GitHub username
+  username: pilottX11
 
 twitter:
-  username:  # change to your Twitter username
+  username: # leave empty so no Twitter icon shows
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: 
-  email:  # change to your email address
-  fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
+  name: pilott
+  email: # leave empty so the placeholder email isn't shown
+  fediverse_handle:
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/pilottX11 # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/pilottX11
+    - https://ruin.cx
 
 # Site Verification Settings
 webmaster_verifications:
